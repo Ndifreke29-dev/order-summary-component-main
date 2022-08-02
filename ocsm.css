@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(9, 69, 201, 0.205);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 300px;
+    background: rgb(250, 250, 250);
+    border-radius: 16px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 1px 1px 30px -19px rgb(23, 11, 90); 
+}
+
+.top {
+    width: 100%;
+}
+
+.top img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.top2 p {
+    display: none;
+}
+
+
+
+.bottom {
+    padding: 20px;
+    text-align: center;
+}
+
+.bt1 {
+    margin-bottom: 15px;
+    font-size: 0.7rem;
+}
+
+.bt2 {
+    font-size: 0.91rem;
+    color: rgba(32, 32, 90, 0.459);
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.bt3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    background: rgba(241, 241, 241, 0.466);
+    padding: 19px 0;
+    border-radius: 10px;
+}
+
+.bt3 .mid h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.bt3 .mid p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(32, 32, 90, 0.459);
+}
+
+.bt3 .right a {
+    font-size: 0.79rem;
+    font-weight: bold;
+    color: rgba(35, 0, 189, 0.822);
+}
+
+.bt3 .right a:active {
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.bt4 {
+    margin-bottom: 25px;
+}
+
+.bt4 button {
+    border: none;
+    background: rgb(47, 0, 255);
+    padding: 15px 65px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 6px 35px -11px rgb(30, 0, 114);
+    cursor: pointer;
+}
+
+.bt4 button:active {
+    opacity: 0.75;
+}
+
+.bt5 {
+    margin-bottom: 15px;
+    color: rgba(32, 32, 90, 0.459);
+    font-weight: bold;
+}
+
+.bt5 p {
+    cursor: pointer;
+}
+
+.bt5 p:active {
+    color: black;
+}
+
+
+
+@media (min-width:820px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: rgba(0, 0, 0, 0.555);
+    }
+    
+    .container {  
+        box-shadow: 1px 1px 30px -15px rgb(255, 255, 255); 
+    }
+
+    .top1 img {
+        opacity: 0.5;
+    }
+
+    .top1 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .top2 {
+        position: absolute;
+        top: 0;
+        line-height: 24px;
+        z-index: 1;
+        color: transparent;
+        background: rgba(41, 41, 41, 0.884);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+
+
+
+
+
+    .bt1 {
+        color: rgba(0, 0, 0, 0.555);
+    }
+    
+    .bt3 .mid h3 {
+        color: rgba(0, 0, 0, 0.555);
+    }
+    
+    .bt3 .right a {   
+        color: rgba(0, 0, 0, 0.555);
+    }
+    
+    .bt4 button {
+        background: rgb(0, 0, 0, 0.555);        
+    }
+    
+}
